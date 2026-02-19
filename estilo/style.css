@@ -47,11 +47,13 @@ section#redes-sociais >a >img{
     height: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 5px 15px blue;
+    box-shadow: 2px 5px 15px;
     box-sizing: border-box;
 
 }
 section#redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.582);
     transform: translate(-5px, -5px);
+     box-shadow: 5px 5px 15px blue;
+     transition: 1s;
 }
